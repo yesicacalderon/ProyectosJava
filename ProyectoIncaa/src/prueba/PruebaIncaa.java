@@ -22,29 +22,29 @@ public class PruebaIncaa {
 		
 		Incaa catalogo1=new Incaa (listPeliculas);
 		
-		//System.out.println(catalogo1);
+		System.out.println(catalogo1);
 		
-		//System.out.println(" Traer Pelicula por id: "+catalogo1.traerPelicula(2));
+		System.out.println(" Traer Pelicula por id: "+catalogo1.traerPelicula(2));
 		
-		//System.out.println(" Traer pelicula por titulo: "+ catalogo1.traerPelicula("Guerra de papas 3"));
+		System.out.println(" Traer pelicula por titulo: "+ catalogo1.traerPelicula("Guerra de papas 3"));
 		
 			
-		//try {
-			//catalogo1.agregarPelicula("Guerra de papas");
-		//} catch (Exception e) {
+		try {
+			catalogo1.agregarPelicula("Guerra de papas");
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			//e.printStackTrace();
-		//}
+			e.printStackTrace();
+		}
 		
-		//System.out.println(" Peliculas agregadas: "+ catalogo1);
+		System.out.println(" Peliculas agregadas: "+ catalogo1);
 	
-		//try {
-			//catalogo1.modificarPelicula(1, "Hola");
-		//} catch (Exception e) {
+		try {
+			catalogo1.modificarPelicula(1, "Hola");
+		} catch (Exception e) {
 			// TODO Auto-generated catch block
-			//e.printStackTrace();
-		//}
-		//System.out.println(" Pelicula Modificada: "+ catalogo1);
+			e.printStackTrace();
+		}
+		System.out.println(" Pelicula Modificada: "+ catalogo1);
 		
 		try {
 			catalogo1.eliminarPelicula(3);
